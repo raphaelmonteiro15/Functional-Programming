@@ -14,7 +14,6 @@
     (and (fizz? number) (buzz? number)))
 
 (defn fizz-buzz [number]
-    (match number)
     (if (fizz-buzz? number) "fizzbuzz"
     (if (fizz? number) "fizz" 
     (if (buzz? number) "buzz" number))))
